@@ -1,0 +1,62 @@
+/* Payment.css */
+
+.payment {
+    background-color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.payment_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.payment__title {
+    flex: 0.2;
+    font-weight: 800;
+}
+
+.payment__deliveryAddress {
+    /* Add specific styles for delivery address section */
+}
+
+.payment__reviewItems {
+    /* Add specific styles for review items section */
+}
+
+.payment__payment {
+    /* Add specific styles for payment section */
+}
+
+
+/* Add a simple button style */
+
+.payment__button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+/* Style for button on hover */
+
+.payment__button:hover {
+    background-color: #ff9900;
+}
